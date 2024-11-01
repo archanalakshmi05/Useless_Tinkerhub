@@ -1,95 +1,122 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Travel Vision 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: ARDIGO
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Gokul H V - GECI
+- Member 2: Archana Lakshmi - GECI
+- Member 3: Dilsha K - GECI
 
 ### Project Description
-[2-3 lines about what your project does]
+The Useless Tinkerhub project is a chatbot application that integrates memory features, allowing it to retain user interactions, and Google Maps API for location-based responses. Built using Node.js, Express, React, and MongoDB, this chatbot can retrieve and display information about locations, including images, while providing a personalized conversation experience.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+We are really in search of it
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+The solution is simple just manifest everything and dream.
 
 ## Technical Details
-### Technologies/Components Used
-For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Here’s a breakdown of the technologies and components used in the project:
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+---
+
+### Technologies/Components Used
+
+#### For Software:
+- **Languages Used**:
+  - JavaScript (Node.js, React)
+
+- **Frameworks Used**:
+  - Express (for backend server)
+
+- **Libraries Used**:
+  - Axios (for making HTTP requests)
+  - Mongoose (for MongoDB integration)
+  - @googlemaps/google-maps-services-js (for Google Maps API)
+  - UUID (for generating unique user IDs)
+  - Lucide React (for UI icons)
+
+- **Tools Used**:
+  - Git (for version control)
+  - MongoDB Compass (for database management, optional)
+  - Visual Studio Code (as the code editor)
+  - Node Package Manager (npm) for managing dependencies
+
+#### For Hardware:
+- **Main Components**:
+  - Computer or server with internet access to host and run the chatbot
+
+- **Specifications**:
+  - Minimum 2GB RAM
+  - Node.js v16 or higher
+  - MongoDB installed locally or accessible via MongoDB Atlas
+
+- **Tools Required**:
+  - Internet connection (for Google Maps API requests)
+  - MongoDB server, either local or remote (for storing data)
+
+Here’s an implementation section for your `README.md`, with commands for installation, running the project, and documentation pointers.
+
+---
 
 ### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+#### For Software:
+
+##### Installation
+Run these commands to set up the project:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/archanalakshmi05/Useless_Tinkerhub.git
+   cd Useless_Tinkerhub
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment**:
+   - Make sure MongoDB is installed and running locally, or provide the connection URI if using MongoDB Atlas.
+   - Obtain a Google Maps API key and update it in `mapsHandler.js`.
+
+##### Run
+Start the server and the application with the following commands:
+
+1. **Start the Server**:
+   ```bash
+   node server.js
+   ```
+
+2. **Access the Application**:
+   - Open a browser and go to `http://localhost:3000` (or the specified port).
+
+---
 
 ### Project Documentation
-For Software:
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+#### For Software:
+- **Code Structure**: The main components of the chatbot are organized as follows:
+  - `server.js`: Configures the Express server and routes.
+  - `database.js`: Handles MongoDB connection and schema definitions.
+  - `chatbot.js`: Main React component for the chatbot interface.
+  - `mapsHandler.js`: Contains functions to interact with Google Maps API.
+  
+- **Google Maps API**: Ensure API keys are configured in `mapsHandler.js` for location-based services.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+- **MongoDB Configuration**: MongoDB is used for storing chat memory and location data; make sure the MongoDB instance is properly set up and reachable.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+You just work on this and create out something bigger and funnier not rely on others okay:)
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+No specific contributions, we worked as one and been one throughout. 
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
