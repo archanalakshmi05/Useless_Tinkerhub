@@ -1,0 +1,23 @@
+{
+  "name": "useless-hack",
+  "version": "1.0.0",
+  "description": "A chatbot project with memory and Google Maps integration",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.2.1",
+    "axios": "^1.7.7",
+    "express": "^4.18.2",
+    "lucide-react": "^0.454.0",
+    "mongoose": "^6.0.0",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}
