@@ -1,94 +1,100 @@
-# Useless_Tinkerhub
+<img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-Here’s a basic `README.md` for your chatbot project. This file provides an overview, setup instructions, and usage details.
+# [Project Name] 🎯
+
+
+## Basic Details
+### Team Name: [Name]
+
+
+### Team Members
+- Team Lead: [Name] - [College]
+- Member 2: [Name] - [College]
+- Member 3: [Name] - [College]
+
+### Project Description
+[2-3 lines about what your project does]
+
+### The Problem (that doesn't exist)
+[What ridiculous problem are you solving?]
+
+### The Solution (that nobody asked for)
+[How are you solving it? Keep it fun!]
+
+## Technical Details
+### Technologies/Components Used
+For Software:
+- [Languages used]
+- [Frameworks used]
+- [Libraries used]
+- [Tools used]
+
+For Hardware:
+- [List main components]
+- [List specifications]
+- [List tools required]
+
+### Implementation
+For Software:
+# Installation
+[commands]
+
+# Run
+[commands]
+
+### Project Documentation
+For Software:
+
+# Screenshots (Add at least 3)
+![Screenshot1](Add screenshot 1 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot2](Add screenshot 2 here with proper name)
+*Add caption explaining what this shows*
+
+![Screenshot3](Add screenshot 3 here with proper name)
+*Add caption explaining what this shows*
+
+# Diagrams
+![Workflow](Add your workflow/architecture diagram here)
+*Add caption explaining your workflow*
+
+For Hardware:
+
+# Schematic & Circuit
+![Circuit](Add your circuit diagram here)
+*Add caption explaining connections*
+
+![Schematic](Add your schematic diagram here)
+*Add caption explaining the schematic*
+
+# Build Photos
+![Components](Add photo of your components here)
+*List out all components shown*
+
+![Build](Add photos of build process here)
+*Explain the build steps*
+
+![Final](Add photo of final product here)
+*Explain the final build*
+
+### Project Demo
+# Video
+[Add your demo video link here]
+*Explain what the video demonstrates*
+
+# Additional Demos
+[Add any extra demo materials/links]
+
+## Team Contributions
+- [Name 1]: [Specific contributions]
+- [Name 2]: [Specific contributions]
+- [Name 3]: [Specific contributions]
 
 ---
+Made with ❤️ at TinkerHub Useless Projects 
 
-# Useless Hack Chatbot Project
+![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
+![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
 
-This project is a chatbot application that integrates memory functionality, Google Maps API for location-based responses, and MongoDB for storing chat history and user interactions. It is built using Node.js, Express, and React with Mongoose for database interactions.
 
-## Features
-- **Memory Storage**: Saves user interactions and context, allowing for a more personalized conversation.
-- **Google Maps Integration**: Fetches location information and images based on user input.
-- **Database Persistence**: Uses MongoDB to store chat history, user data, and location details.
-
-## Prerequisites
-- **Node.js** (v16 or later)
-- **MongoDB** (running locally or on MongoDB Atlas)
-- **Google Cloud Platform API Key** (for Google Maps integration)
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/archanalakshmi05/useless-hack-chatbot.git
-   cd useless-hack-chatbot
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Set Up MongoDB**:
-   - Make sure MongoDB is installed and running.
-   - Modify the `mongoose.connect` URI in `database.js` if using a remote MongoDB instance.
-
-4. **Configure Google Maps API**:
-   - Go to [Google Cloud Console](https://console.cloud.google.com/).
-   - Enable the Google Maps API and obtain an API key.
-   - Update the API key in `mapsHandler.js` with your actual key.
-
-5. **Create Required Files**:
-   - Ensure `server.js`, `chatbot.js`, `mapsHandler.js`, and `database.js` are in the project root with the provided configurations.
-
-## Project Structure
-```
-Useless_hack/
-├── ChatBot.css         # CSS for the chatbot interface
-├── chatbot.js          # Main React component for the chatbot
-├── database.js         # MongoDB connection and schema definition
-├── mapsHandler.js      # Google Maps API integration functions
-├── package.json        # Project dependencies and metadata
-├── server.js           # Express server to run the chatbot API
-└── README.md           # Project documentation
-```
-
-## Usage
-
-1. **Start MongoDB**:
-   Make sure MongoDB is running on your machine or accessible through the specified URI.
-
-2. **Run the Server**:
-   ```bash
-   node server.js
-   ```
-
-3. **Access the Chatbot**:
-   Open a browser and go to `http://localhost:3000` (or `http://localhost:<PORT>` if you specified a different port).
-
-4. **Using the Chatbot**:
-   - Enter messages in the chat interface to interact with the bot.
-   - To search for a location, type a message like "Find location [place name]." The bot will retrieve information and an image if available.
-
-## Additional Notes
-
-- **Error Handling**:
-  - If you encounter `EADDRINUSE` errors, change the port in `server.js` or free up the port using the methods mentioned above.
-  - MongoDB connection issues can typically be resolved by verifying the MongoDB server status or adjusting the connection string.
-
-- **Debugging**:
-  - Use `node --trace-warnings server.js` for more detailed error messages if you encounter deprecation or runtime warnings.
-
-## License
-This project is licensed under the MIT License.
-
----
-
-### Author
-Archana Lakshmi -archanalakshmi05(https://github.com/archanalakshmi05)
-Gokul H V- gokulhv24@gmail.com
-Dilsha K- dilshak2001@gmail.com
-
----
